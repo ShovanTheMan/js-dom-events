@@ -12,26 +12,28 @@
     <button onclick="console.log(65)">Another Button</button>
     <br>
     <button onclick="document.body.style.backgroundColor= 'yellow'">Make Yellow</button>
+    <!-- option 2 -->
     <button onclick="makeRed()">Make Red</button>
+    <!-- option 3 -->
     <button id="make-blue">Make Blue</button>
-    <button id="make-purple">"Make Purple"</button>
+    <button id="make-purple">Make Purple</button>
+    <!-- option 4 -->
+    <button id="make-pink">Make Pink</button>
+    <button id="make-green">Make Green</button>
+    <button id="make-goldenrod">Make goldernROd</button>
     
  <script src="js/events.js"></script> 
  <script>
-    // function makeRed(){
-        // document.body.style.backgroundColor= 'red';}----js file e move
-        // const makeBlueButton = document.getElementById('make-blue');
-        // makeBlueButton.onclick = makeBlue;
-
-        // function makeBlue(){
-        //     document.body.style.backgroundColor = 'blue';
-        // }
-        // const purpleButton = document.getElementById('make-purple');
-        // purpleButton.onclick = function makePurple(){
-        //     document.body.style.backgroundColor = 'purple';
-        // }
-
+    //document.getElementById('make-goldenrod').addEventListener('click',function(){}
+      
+    document.getElementById('make-goldenrod').addEventListener('click',function(){
+        document.body.style.backgroundColor = 'goldenrod';
+    })
     
+    
+
+
+     
  </script>  
 </body>
 </html>
